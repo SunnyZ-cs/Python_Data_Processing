@@ -1,0 +1,33 @@
+{
+  "plot": "plot words blah blah blah",
+  "scenes": {
+    "start": {
+      "text": "You are at the start.",
+      "scene_summary": "Words about start.",
+      "choices": [
+        {
+          "text": "blah blah",
+          "scene_key": "scene_aaa"
+        },
+        {
+          "text": "blah blah",
+          "scene_key": "scene_bbb"
+        }
+      ]
+    },
+    "scene_aaa": {
+      "text": "blah blah",
+      "scene_summary": "blah",
+      "choices": [
+        {
+          "text": "Go back to the start",
+          "scene_key": "start"
+        },
+        {
+          "text": "blah",
+          "scene_key": "scene_ccc"
+        }
+      ]
+    }
+  }
+}
